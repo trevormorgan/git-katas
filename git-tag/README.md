@@ -19,7 +19,7 @@ because the tag name and the changes of the commit contain the necessary informa
 
 ## The task
 
-For simplicity, we will just work with the master branch in this kata. A couple
+For simplicity, we will just work with the main branch in this kata. A couple
 of tags are already created.
 
 1. See which tags that were created.

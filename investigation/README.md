@@ -6,7 +6,7 @@ Objects are stored in `<repository>/.git/objects` in subfolders matching the fir
 `git cat-file` inflates and shows the content of whatever _ref_ you pass it.
 `-p` asks `cat-file` to pretty-print the content of an object.
 
-`git ls-tree master .` inflates and lists the content of a folder.
+`git ls-tree main .` inflates and lists the content of a folder.
 
 ## Setup:
 

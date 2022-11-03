@@ -1,4 +1,4 @@
 #!/bin/bash
-kata="basic-commits-master"
+kata="basic-commits-main"
 source ../utils/utils.sh
 make-exercise-repo

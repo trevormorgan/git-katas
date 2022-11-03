@@ -13,8 +13,8 @@ git checkout -b "Mergesort-Impl"
 \cp ../righty.py mergesort.py
 git add mergesort.py
 git commit -m "Mergesort implemented on feature branch"
-git checkout master
+git checkout main
 \cp ../lefty.py mergesort.py
 git add mergesort.py
-git commit -m "Mergesort implemented on master"
+git commit -m "Mergesort implemented on main"
 

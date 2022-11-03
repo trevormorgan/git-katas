@@ -20,7 +20,7 @@ git add file.txt
 git commit -m "add relevant fact"
 
 
-git checkout master
+git checkout main
 echo "This is an indispensable truth!" > file.txt
 git add file.txt
 git commit -m "add indispensable truth!"

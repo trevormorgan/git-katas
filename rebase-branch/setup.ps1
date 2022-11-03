@@ -17,8 +17,8 @@ Set-Content -Value "HELLO" -Path greeting.txt
 
 git commit -am "Change greeting to uppercase"
 
-# Move forward on master
-git checkout master
+# Move forward on main
+git checkout main
 
 Set-Content -Value "Greetings library" -Path README.md
 

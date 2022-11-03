@@ -54,6 +54,6 @@ echo "Boring extra file for no reason" > boring.txt
 git add boring.txt
 git commit -m "Commit H: Added the boring file"
 
-git checkout master
+git checkout main
 
 post-setup

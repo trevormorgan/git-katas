@@ -9,7 +9,7 @@ git commit --allow-empty -m "Initial commit"
 
 git tag v0.0
 
-git push origin master
+git push origin main
 git push origin v0.0
 
 echo "Hello" > hello.code

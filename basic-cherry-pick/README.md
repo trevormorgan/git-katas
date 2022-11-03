@@ -1,6 +1,6 @@
 # Git Kata: Basic Cherry Pick
 
-In this task we want have two branches, master and feature. We have worked and progressed on both branches seperately. However, there are a few changes on the feature branch that we want to take and add onto the master branch. Without getting the entire changeset from the feature branch.
+In this task we want have two branches, main and feature. We have worked and progressed on both branches seperately. However, there are a few changes on the feature branch that we want to take and add onto the main branch. Without getting the entire changeset from the feature branch.
 
 Git has functionality for this "take-just-these-changes" and it is called `cherry-pick`.
 You tell Git which commits you would like to cherry pick and Git will add those commits onto your branch's commit history.
@@ -16,13 +16,13 @@ Git can cherry pick either a single commit or a range of commits from a branch.
 
 We currently have this git history in our exercise repository :
 
-    A - B - C - D         master
+    A - B - C - D         main
           \
             E - F - G - H feature
 
-As you can see the `feature` branch and the `master` branch have progressed with different commits. We want to cherry pick the commits F and G and add them onto the master branch, so that our Git history looks like this:
+As you can see the `feature` branch and the `main` branch have progressed with different commits. We want to cherry pick the commits F and G and add them onto the main branch, so that our Git history looks like this:
 
-    A - B - C - D - F - G master
+    A - B - C - D - F - G main
           \
             E - F - G - H feature
 
@@ -30,7 +30,7 @@ As you can see the `feature` branch and the `master` branch have progressed with
 2. Use `cat` to view the content of `names.txt`. This file is changed in commit F
 3. Use `cat` to view the content of `sentence.txt`. This file is changed in commit G
 4. Use `git cherry-pick <commit_hash_F>` to cherry pick just the F commit onto your branch
-5. Use `git log --oneline` to see the change to the history and that commit F should now be the newest commit on the master branch
+5. Use `git log --oneline` to see the change to the history and that commit F should now be the newest commit on the main branch
 6. Use `cat` to view the content of `names.txt` look how it has now changed!
 7. Use `git reset --hard HEAD^` to delete that cherry picking from the history so that we can now try again and cherry pick a range of commits
 8. Use `git log --oneline --graph` to check the the cherry picked commit is now removed from the branch

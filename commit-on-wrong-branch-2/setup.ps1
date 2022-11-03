@@ -14,7 +14,7 @@ Add-Content -Value "First part of new awesome feature" -Path myapp.txt
 git add myapp.txt
 git commit -m "Implement first part of feature"
 
-git checkout master
+git checkout main
 
 Set-Content -Value "Some coode" -Path myapp.txt
 Add-Content -Value "Some other line of code" -Path myapp.txt

@@ -8,5 +8,5 @@ clone-remote-to-exercise
 touch README.md
 git add README.md
 git commit -m "Initial Commit"
-git push -u origin master
+git push -u origin main
 cp ../pre-push pre-push

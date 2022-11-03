@@ -16,4 +16,4 @@ Set-Content -Path "the-file.tst" -Value "[R U I N]"
 git add the-file.tst
 git commit -m "Add dark side of the-file.tst"
 
-git checkout master
+git checkout main

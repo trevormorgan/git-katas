@@ -36,4 +36,4 @@ Set-Content -Value "Boring extra file for no reason" -Path boring.txt
 git add boring.txt
 git commit -m "Commit H: Added the boring file"
 
-git checkout master
+git checkout main

@@ -22,4 +22,4 @@ Set-Content -Value "BB" -Path fileB.txt
 git add .
 git commit -m "Change both files"
 
-git push -u origin master
+git push -u origin main

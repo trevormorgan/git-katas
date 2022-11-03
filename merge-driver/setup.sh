@@ -19,4 +19,4 @@ echo "[R U I N]" > the-file.tst
 git add the-file.tst
 git commit -m"Add dark side of the-file.tst"
 
-git checkout master
+git checkout main

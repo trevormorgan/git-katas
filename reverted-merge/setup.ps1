@@ -22,7 +22,7 @@ Add-Content -Value "Use new library functionality" -Path mymodule.txt
 git add mymodule.txt
 git commit -m "Use new functionality in mymodule"
 
-git checkout master
+git checkout main
 
 Add-Content -Value "Promising feature X" -Path mymodule.txt
 

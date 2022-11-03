@@ -15,4 +15,4 @@ git checkout -b quickfix HEAD~1
 Set-Content -Value "This is a very quick fix" -Path fix.txt
 
 git add fix.txt
-git commit -m "Make quick fix - should be moved to master"
+git commit -m "Make quick fix - should be moved to main"

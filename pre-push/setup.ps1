@@ -5,6 +5,6 @@ Set-Content -Value "" -Path README.md
 
 git add README.md
 git commit -m "Initial Commit"
-git push -u origin master
+git push -u origin main
 
 Copy-Item ../pre-push pre-push

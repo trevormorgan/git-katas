@@ -19,13 +19,13 @@ Suddenly, you're made aware that a bug has made it to production. You'll stash y
    2. What work do you have staged ?
    3. What does the commit log look like ?
    4. What does the stash list look like ?
-3. Fix the typos in bug.txt on master and commit your changes.
-4. Now to get back to your work, apply the stash to master.
+3. Fix the typos in bug.txt on main and commit your changes.
+4. Now to get back to your work, apply the stash to main.
    1. What work do you have in the working directory?
    2. What work do you have staged ?
    >*Oops. All our changes are unstaged now. This may be undesirable and unexpected*
 5. Undo our changes with `git reset --hard HEAD`. This is an unsafe command as it will remove files from your index and working directory permanently, but we have our changes safely stashed so we're ok. Review the [reset](reset/README.md) kata if you're unsure of what happens here.
-6. Apply the stash to master with the `--index` option.
+6. Apply the stash to main with the `--index` option.
    1. What work do you have in the working directory?
    2. What work do you have staged ?
    >*Ok, back to where we were!*
@@ -40,7 +40,7 @@ Suddenly, you're made aware that a bug has made it to production. You'll stash y
 - `git status`
 - `git status -s`
 - `git diff`
-- `git diff master`
+- `git diff main`
 - `git stash`
 - `git stash list`
 - `git stash apply`

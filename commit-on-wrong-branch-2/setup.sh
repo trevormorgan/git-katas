@@ -16,7 +16,7 @@ echo "First part of new awesome feature" >> myapp.txt
 git add myapp.txt
 git commit -m"Implement first part of feature"
 
-git checkout master
+git checkout main
 echo "Some code" > myapp.txt
 echo "Some other line of code" >> myapp.txt
 echo "Another line of code" >> myapp.txt

@@ -1,6 +1,6 @@
 # Git Kata: Save my commit
 
-In this repository we had added the holy grail in `holygrail.txt`. Unfortunately, we reset our `master` branch to the initial commit. Now it is time to recover from the mistake.
+In this repository we had added the holy grail in `holygrail.txt`. Unfortunately, we reset our `main` branch to the initial commit. Now it is time to recover from the mistake.
 
 ## Setup
 
@@ -8,7 +8,7 @@ In this repository we had added the holy grail in `holygrail.txt`. Unfortunately
 
 ## The task
 
-We just reset the `master` branch to the initial commit. We will recover the lost work.
+We just reset the `main` branch to the initial commit. We will recover the lost work.
 
 1. Use `git log` to see that the history is brief
 2. Use `ls` to verify that `holygrail.txt` is not in the workspace

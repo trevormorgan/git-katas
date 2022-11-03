@@ -9,7 +9,7 @@ When a user ends up in a "detached head" state, this is a scary situation, but a
 ## The task
 
 1. Run `git status` and `git log --oneline --graph --all` to see what is going on.
-2. Restore normalcy in this repository by moving to `master`
+2. Restore normalcy in this repository by moving to `main`
 
 Note that this task might seem more confusing if you did not run `setup.sh` in your terminal.
 

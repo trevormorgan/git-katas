@@ -12,9 +12,9 @@ Copy-Item "..\righty.py" -Destination "mergesort.py"
 git add mergesort.py
 git commit -m "Mergesort implemented on feature branch"
 
-git checkout master
+git checkout main
 
 Copy-Item "..\lefty.py" -Destination "mergesort.py"
 
 git add mergesort.py
-git commit -m "Mergesort implemented on master"
+git commit -m "Mergesort implemented on main"

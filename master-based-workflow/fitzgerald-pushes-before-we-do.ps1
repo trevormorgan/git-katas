@@ -1,6 +1,6 @@
 Push-Location ../fake-remote-repository
 
-git checkout master
+git checkout main
 Set-Content -Value "" -Path fitz-was-here.md
 
 git add fitz-was-here.md

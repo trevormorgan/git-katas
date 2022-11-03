@@ -25,7 +25,7 @@ git add mymodule.txt
 git commit -m"Use new functionality in mymodule"
 
 
-git checkout master
+git checkout main
 echo "Promising feature X" >> mymodule.txt
 git add mymodule.txt
 git commit -m"Add feature X"

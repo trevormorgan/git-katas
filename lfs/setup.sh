@@ -7,7 +7,7 @@ pre-setup-with-remote
 git commit --allow-empty -m "Initial commit"
 
 
-git push origin master
+git push origin main
 
 echo "Hello" > hello.txt
 echo "Stuff" > stuff.txt

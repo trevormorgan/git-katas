@@ -18,7 +18,7 @@ Set-Content -Value "This is a relevant fact" -Path file.txt
 git add file.txt
 git commit -m "add relevant fact"
 
-git checkout master
+git checkout main
 
 Set-Content -Value "This is an indispensable truth!" -Path file.txt
 

@@ -26,7 +26,7 @@ cd ${EXERCISE_DIR}
 mkdir component
 
 cd component
-git -c init.defaultBranch=master init
+git -c init.defaultBranch=main init
 echo "1st component commit" >> component.h
 git add component.h
 git commit -m "1st component commit"
@@ -35,7 +35,7 @@ cd ..
 
 mkdir product
 cd product
-git -c init.defaultBranch=master init
+git -c init.defaultBranch=main init
 echo "1st  product commit" >> product.h
 git add product.h
 git commit -m "1st product commit"
@@ -52,7 +52,7 @@ git remote add component ../component/.git
 echo "Press any key to next step"
 read -r cont
 
-git subtree add --prefix component component master
+git subtree add --prefix component component main
 
 echo "Press any key to next step"
 read -r cont
@@ -65,7 +65,7 @@ cd ../product
 
 echo "Press any key to next step"
 read -r cont
-git subtree pull --prefix component component master
+git subtree pull --prefix component component main
 
 echo "Press any key to next step"
 read -r cont

@@ -27,10 +27,10 @@ features should be included in `mymodule.txt`.
    * You may assume that feature Y is also working with the old library version.
 2. Take the role of the library team and fix the bug in the library on the
    integrate branch, e.g. change `lib.txt`.
-3. Next we explore how you can get the changes from the branch into the master
+3. Next we explore how you can get the changes from the branch into the main
    again. First try to merge to see what happens. The `lib.txt` file changes as
    expected, but '`mymodule.txt` does not. For an in depth discussion of
-   the reason why, consult this gist: [Reverting a faulty merge](https://github.com/git/git/blob/master/Documentation/howto/revert-a-faulty-merge.txt).
+   the reason why, consult this gist: [Reverting a faulty merge](https://github.com/git/git/blob/main/Documentation/howto/revert-a-faulty-merge.txt).
 
 > reverting a merge commit also
 > undoes the _data_ that the commit changed, but it does absolutely

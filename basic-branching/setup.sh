@@ -11,6 +11,6 @@ echo "dummy" > dummy.txt
 git add dummy.txt
 git commit -m "dummy commit"
 git checkout -b second-branch
-git checkout master
+git checkout main
 
 post-setup

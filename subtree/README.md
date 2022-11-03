@@ -31,17 +31,17 @@ $ git remote -v
 component       ../component/.git (fetch)
 component       ../component/.git (push)
 ```
-* Add the `component` history to the this repository (`product`) under the directory `component`: `git subtree add --prefix component component master` . You should see something like this:
+* Add the `component` history to the this repository (`product`) under the directory `component`: `git subtree add --prefix component component main` . You should see something like this:
 ```
-git fetch component master
+git fetch component main
 warning: no common commits
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), 224 bytes | 18.00 KiB/s, done.
 From ../component/
- * branch            master     -> FETCH_HEAD
- * [new branch]      master     -> component/master
+ * branch            main     -> FETCH_HEAD
+ * [new branch]      main     -> component/main
 Added dir 'component'
 ```
 * Please explain what happend and what the result is. Consider running this command in both `product` and `component` repositories. `git log --graph --oneline --all
@@ -52,15 +52,15 @@ We have added the `component` subtree to the `component` directory also named a 
 
 * Go to the `component` repository
 * Make changes and commit them
-* Go to the `product` repository and pull in the changes with this command: `git subtree pull --prefix component component master`
+* Go to the `product` repository and pull in the changes with this command: `git subtree pull --prefix component component main`
 ```
 remote: Enumerating objects: 5, done.
 remote: Counting objects: 100% (5/5), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), 276 bytes | 5.00 KiB/s, done.
 From ../component/
- * branch            master     -> FETCH_HEAD
-   99d28dd..a930ba9  master     -> component/master
+ * branch            main     -> FETCH_HEAD
+   99d28dd..a930ba9  main     -> component/main
 Merge made by the 'recursive' strategy.
  component/component.h | 1 +
  1 file changed, 1 insertion(+)
@@ -94,7 +94,7 @@ To ../component/.git
 ## Useful commands
 
 * `git log --graph --oneline --all`
-* `git subtree add --prefix component component master`
+* `git subtree add --prefix component component main`
 * `git remote add component ../component/.git`
 * `git subtree push --prefix <prefix/directory> <repo> <branch>`
 
@@ -109,5 +109,5 @@ replay=true debug=true ./setup.sh
 
 We found some resources that may assist you in understanding this feature of Git better.
 
-* https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt
+* https://github.com/git/git/blob/main/contrib/subtree/git-subtree.txt
 * https://blog.developer.atlassian.com/the-power-of-git-subtree/

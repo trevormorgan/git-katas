@@ -1,5 +1,5 @@
 ---
-maintainer: randomsort
+maintainer: Trevor Morgan
 ---
 # Git Katas
 
@@ -7,7 +7,7 @@ maintainer: randomsort
 
 ### In the Cloud
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/praqma-training/git-katas.git)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/trmorgan/git-katas.git)
 
 ### On Your Local Machine
 
@@ -133,17 +133,17 @@ git stash apply <stash>                 # Apply given <stash>, or if none given 
 git branch my-branch       # Create a new branch called my-branch
 git switch my-branch     # Switch to a different branch to work on it
 git switch -c my-branch  # Create a new branch called my-branch AND switch to it
-git branch -d my-branch    # Delete branch my-branch that has been merged with master
-git branch -D my-branch    # Forcefully delete a branch my-branch that hasn't been merged to master
+git branch -d my-branch    # Delete branch my-branch that has been merged with main
+git branch -D my-branch    # Forcefully delete a branch my-branch that hasn't been merged to main
 
 # Merging
-git merge master         # Merge the master branch into your currently checked out branch.
-git rebase master        # Rebase current branch on top of master branch
+git merge main         # Merge the main branch into your currently checked out branch.
+git rebase main        # Rebase current branch on top of main branch
 
 # Working with Remotes
 git remote              # Show your current remotes
 git remote -v           # Show your current remotes and their URLs
-git push                # Publish your commits to the upstream master of your currently checked out branch
+git push                # Publish your commits to the upstream main of your currently checked out branch
 git push -u origin my-branch  # Push newly created branch to remote repo setting up to track remote branch from origin.
                               # No need to specify remote branch name, for e.g., when doing a 'git pull' on that branch.
 git pull                # Pull changes from the remote to your currently checked out branch
@@ -158,7 +158,7 @@ git mv <source/file> <destination/file>   # move/rename file and stage the chang
 # Adding a shorthand "sw" for "switch"
 git config --global alias.sw "switch"
 # Usage:
-git sw master     # Does a "git switch master"
+git sw main     # Does a "git switch main"
 
 ## Logging
 git log --graph --oneline --all # Show a nice graph of the previous commits

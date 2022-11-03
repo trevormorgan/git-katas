@@ -2,4 +2,4 @@
 
 Set-Content -Value "hello æøå`r`n" -Path file1.txt
 
-git checkout -b master
+git checkout -b main

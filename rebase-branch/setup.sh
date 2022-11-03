@@ -16,8 +16,8 @@ git commit -m "Add content to greeting.txt"
 git checkout -b uppercase
 echo "HELLO" > greeting.txt
 git commit -am "Change greeting to uppercase"
-# Move forward on master
-git checkout master
+# Move forward on main
+git checkout main
 echo "Greetings library" > README.md
 git add README.md
 git commit -m "Add readme"

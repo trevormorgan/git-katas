@@ -3,7 +3,7 @@ In this kata you will be facing your first merge conflict!
 There will be two different branches:
 
 * Mergesort-Impl
-* master
+* main
 
 The task is to look at the merge conflict, and solve it by editing the file accordingly.
 
@@ -14,7 +14,7 @@ The task is to look at the merge conflict, and solve it by editing the file acco
 ## The task
 
 1. Run `git branch` to see the two branches present
-2. Merge `Mergesort-Impl` into `master`
+2. Merge `Mergesort-Impl` into `main`
 3. Either:
    1. Solve the merge conflict with your favorite editor and finish the merge (`git status` will tell you what to do), **or**
    2. Use `git mergetool --tool=emerge` (for emacs fans) or `git mergetool --tool=vimdiff` (for vim fans) and finish the merge (`git status` will tell you what to do)

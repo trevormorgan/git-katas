@@ -9,7 +9,7 @@ echo "initial" > foo.txt
 git add foo.txt
 git commit -m "Initial commit"
 git tag -m 'Start' START
-git push origin master
+git push origin main
 git push origin START
 
 echo "1" > file1

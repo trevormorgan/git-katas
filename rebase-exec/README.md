@@ -6,7 +6,7 @@
 
 ## Task
 
-Doing local development we've created a bunch of commits. We would like to deliver them all to master. We would also like all commits to pass our tests.
+Doing local development we've created a bunch of commits. We would like to deliver them all to main. We would also like all commits to pass our tests.
 
 Our test suite is contained in `test.sh`. We can use `git rebase --exec` to run the test suite for all commits. We have tagged the first commit in our history with `initial-commit`.
 

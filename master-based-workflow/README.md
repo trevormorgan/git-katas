@@ -1,6 +1,6 @@
-# Master based workflow
+# main based workflow
 
-In this kata we will practice the workflow commonly known as "master based workflow". It is sometimes called Centralized workflow or simplified workflow. Collaboration works by pushing to and pulling from the master branch. This workflow is good for simple projects, or solo projects.
+In this kata we will practice the workflow commonly known as "main based workflow". It is sometimes called Centralized workflow or simplified workflow. Collaboration works by pushing to and pulling from the main branch. This workflow is good for simple projects, or solo projects.
 
 We will work with a fake remote repository, that serves as a standin for one hosted by a service like GitHub or Bitbucket.
 
@@ -14,7 +14,7 @@ Run `source setup.sh` (or `.\setup.ps1` in PowerShell) to setup the exercise.
 2. Change to the local repository with the command `cd local-repo`
 3. Add a line of text to `README.md`
 4. Commit the change 
-5. Run `git status` and notice how your local master branch relates to the remote master branch
+5. Run `git status` and notice how your local main branch relates to the remote main branch
 6. Push the change to the remote using the command `git push`
 7. Run `git status` to see that you are up-to-date
 8. Add another line of text to `README.md`
@@ -22,12 +22,12 @@ Run `source setup.sh` (or `.\setup.ps1` in PowerShell) to setup the exercise.
 10. Run the command `../fitzgerald-pushes-before-we-do.sh` (or `..\fitzgerald-pushes-before-we-do.ps1` in PowerShell) to simulate a collaborator delivering changes to the fake remote
 11. Push your change. Notice that they are rejected by the remote
 12. Run the command `git fetch` to retrieve the changes from the fake remote
-13. Run `git status` to see how your `master` branch and the remote `master` branch have diverged
-14. Run `git merge origin/master` to apply the changes from the fake remote to your master branch
-15. Run `git status` to see the how the local and remote master branches relate
-16. Run `git log --all --oneline --graph` to see the merge commit on the master branch
+13. Run `git status` to see how your `main` branch and the remote `main` branch have diverged
+14. Run `git merge origin/main` to apply the changes from the fake remote to your main branch
+15. Run `git status` to see the how the local and remote main branches relate
+16. Run `git log --all --oneline --graph` to see the merge commit on the main branch
 17. Run `git push` to deliver your changes to the fake-remote
-18. Run `git status` to see that your `master` branch is up-to-date and has no undelivered changes
+18. Run `git status` to see that your `main` branch is up-to-date and has no undelivered changes
 
 ## Relevant commands
 
