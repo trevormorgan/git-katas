@@ -22,11 +22,14 @@ Output:
 `/c/users/myname`
 
 ## List content of folder
-`ls` (list files)
+```{bash}
+ls #list files
 
-`ls -l` (list files in long form)
+ls -l #list files in long form
 
-`ls -a` (list all including hidden files)
+ls -a #list all including hidden files
+```
+
 
 ## Change directory
 `cd <foldername>`
